@@ -1,4 +1,5 @@
 📋 Application Todo (avec Firebase)
+
 Une application mobile Flutter de gestion de tâches (Todo List) avec Firebase Firestore. Elle permet d'ajouter, afficher, modifier et supprimer des tâches avec une persistance cloud en temps réel.
 
 🚀 Fonctionnalités
@@ -32,15 +33,25 @@ Structure des dossiers
 text
 lib/
 ├── core/           # Code transverse (constants, services, utils)
+
 ├── data/           # Couche données (models, repositories)
+
 ├── domain/         # Entités métier
+
 └── presentation/   # Couche UI (pages, providers, widgets)
 
 🚀 Exécution du projet
-*Cloner le projet*
-git clone 
+
+**Cloner le projet**
+
+git clone git@github.com:Nab-son/onboarding.git
+
 cd todo_app
-*Installer les dépendances*
+
+**Installer les dépendances**
+
 flutter pub get
-*Lancer l'application*
+
+**Lancer l'application**
+
 flutter run
